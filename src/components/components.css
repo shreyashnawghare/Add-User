@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline+Text:wght@300&family=Unlock&display=swap');
+body{
+  background-image: url(https://i0.wp.com/chetanedits.com/wp-content/uploads/2018/11/73c75949a122aacdd7b8a7fa2cbd00c7-01.jpeg?ssl=1);
+  background-size: cover;
+  /* background-blend-mode: difference; */
+}
+.usercard {
+    width: 350px;
+    font-size: 0.95rem;
+    background-color: rgb(214, 210, 210);
+    box-shadow: 1px 1px 5px 1px rgb(119, 119, 119);
+  }
+  .image img {
+    margin-left: 25%;
+    border-radius: 20px;
+  }
+  .card {
+    width: 350px;
+    
+  }
+h4{
+  font-family: 'Unlock', cursive;
+  color: rgb(253, 254, 255);
+}
+.brand{
+  font-family: 'Unlock', cursive;
+  color: rgb(251, 253, 255);
+}
+.main1{
+  background-image: url(https://free4kwallpapers.com/uploads/originals/2020/02/01/colorful-minimalist-wallpaper.jpg);
+  background-size: cover;
+  background-position: top;
+  background-attachment: fixed;
+}
+
+.card-body{
+  
+  border-radius: 10px;
+  box-shadow:  5px 4px 5px 5px rgb(47, 43, 43);
+  
+  background-image:url(https://wallpaperaccess.com/full/1732229.jpg);
+}
+
+  
+  @media screen and (max-width: 1000px) {
+    .brand {
+      font-size: 1.75rem;
+    }
+    .users-head {
+      font-size: 0.95rem;
+    }
+    .card {
+      width: 300px;
+      font-size: 0.9rem;
+    }
+    .usercard {
+      width: 300px;
+      font-size: 0.9rem;
+    }
+    h3,
+    h2 {
+      font-size: 1rem;
+    }
+    .form-control {
+      height: 6vh;
+      height: 6vh;
+      font-size: 0.8rem;
+    }
+    .form label {
+      font-size: 0.85rem;
+    }
+  }
+  
